@@ -1,16 +1,16 @@
-import '../css/main.css';
+import '../css/main.scss';
 
 import { plus, minus, counter } from './counter';
 
-plus.addEventListener('click', counterPlus);
-minus.addEventListener('click', counterMinus);
-
-function counterPlus() {
+const counterPlus = () => {
   var current = parseInt(counter.textContent);
   counter.innerHTML = current + 1;
 }
 
-function counterMinus() {
+const counterMinus = () => {
   var current = parseInt(counter.textContent);
   counter.innerHTML = current - 1;
 }
+
+plus.addEventListener('click', counterPlus);
+minus.addEventListener('click', counterMinus);
