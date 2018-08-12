@@ -1,3 +1,3 @@
-var plus = document.querySelector('#plus');
-var minus = document.querySelector('#minus');
-var counter = document.querySelector('#counter');
+export var plus = document.querySelector('#plus');
+export var minus = document.querySelector('#minus');
+export var counter = document.querySelector('#counter');

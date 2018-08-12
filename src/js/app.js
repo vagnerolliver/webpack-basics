@@ -1,3 +1,7 @@
+import '../css/main.css';
+
+import { plus, minus, counter } from './counter';
+
 plus.addEventListener('click', counterPlus);
 minus.addEventListener('click', counterMinus);
 
